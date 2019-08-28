@@ -2,22 +2,27 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>My momentum</title>
-    <link rel="stylesheet" href="./styles/style.css">
+    <title>My Momentum</title>
+    <link rel="stylesheet" href="./styles/styles.css">
 </head>
 <body>
     <div class="content">
         <div class="js-clock">
-            <h1 class="js-tittle">00:00:00</h1>
+            <h1 class="js-title">00:00:00</h1>
         </div>
-        <form action="" class="js-form form">
+        <form class="js-form form">
             <input type="text" placeholder="Write your name!">
         </form>
         <h2 class="js-greetings greetings"></h2>
+        <form class="js-todoForm">
+            <input type="text" placeholder="Write your to do!">
+        </form>
+        <span class="toDo-span">To-Do List</span>
+        <ul class="js-toDoList"></ul>
     </div>
     <script src="./scripts/clock.js"></script>
     <script src="./scripts/greeting.js"></script>
+    <script src="./scripts/todo.js"></script>
+    <script src="./scripts/bg.js"></script>
 </body>
 </html>
